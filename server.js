@@ -52,7 +52,7 @@ app.get("/api/companies/new", (req, res) => {
 });
 
 app.get("/api/user/company", (req, res) => {
-  res.json( createUser(), createCompany());
+  res.json( [createUser(), createCompany()]);
 });
 
 
