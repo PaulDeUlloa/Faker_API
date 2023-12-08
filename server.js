@@ -36,7 +36,7 @@ const createCompany = () => {
       ZipCode:
       faker.location.zipCode(),
       Country:
-      faker.location.country(),
+      faker.location.country(), 
     }
   });
 };
